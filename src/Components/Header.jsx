@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
+import LoginControl from "./LoginControl";
 
 function Header() {
   return (
@@ -16,13 +17,16 @@ function Header() {
         <nav>
           <ul>
             <li>
-              <NavLink to="/movies">영화</NavLink>
+              <NavLink to="/movie">영화</NavLink>
             </li>
             <li>
               <NavLink to="/tv">TV 프로그램</NavLink>
             </li>
             <li>
               <NavLink to="/person">인물</NavLink>
+            </li>
+            <li>
+              <LoginControl />
             </li>
           </ul>
         </nav>

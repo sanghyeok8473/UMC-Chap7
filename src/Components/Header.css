@@ -22,10 +22,13 @@ header {
     padding-left: 20px;
     margin: 0;
     display: flex;
+    margin-bottom: 0;
   }
   
   nav ul li {
     margin-left: 20px;
+    display: flex;
+    align-items: center;
   }
   
   nav ul li a {
@@ -37,3 +40,13 @@ header {
     text-decoration: underline;
   }
   
+  .login-control button {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+  }
+
+  .login-control span {
+    margin-left: 15px;
+  }

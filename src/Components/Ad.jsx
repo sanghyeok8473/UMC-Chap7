@@ -8,7 +8,7 @@ const Ad = ({ showAd }) => {
 
   return (
     <div>
-      <img src={adImage} alt="광고" style={{ width: '100%' }} />
+      <img src={adImage} alt="광고" style={{ width: '100%'}} />
     </div>
   );
 };
