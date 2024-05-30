@@ -44,6 +44,6 @@ function MovieDetailWrapper() {
   if (!movie) {
     return <NotFound />;
   }
-
+  
   return <MovieDetail movie={movie} />;
 }

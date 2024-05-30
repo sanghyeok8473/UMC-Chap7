@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 import LoginControl from "./LoginControl";
+import LoginButton from "./pages/LoginButton";
 
 function Header() {
   return (
@@ -26,7 +27,7 @@ function Header() {
               <NavLink to="/person">인물</NavLink>
             </li>
             <li>
-              <LoginControl />
+            <NavLink to="/login"><LoginButton /></NavLink>
             </li>
           </ul>
         </nav>
